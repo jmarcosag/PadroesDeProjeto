@@ -2,16 +2,16 @@ package padroescriacao.builder;
 
 import java.util.Date;
 
-public class Aluno {
+public class Medico {
 
-    private int matricula;
+    private int crm;
     private String nome;
     private Date dataNascimento;
-    private String nomeMae;
-    private String nomePai;
+    private String sobrenome;
+    private String especializacao;
     private String cpf;
     private String rg;
-    private String escolaAnterior;
+    private String localDeTrabalho;
     private String enderecoLogradouro;
     private int enderecoNumero;
     private String enderecoComplemento;
@@ -22,17 +22,17 @@ public class Aluno {
     private String email;
     private String celular;
 
-    public Aluno() {
-        this.matricula = 0;
+    public Medico() {
+        this.crm = 0;
         this.nome = "";
     }
 
-    public int getMatricula() {
-        return matricula;
+    public int getCrm() {
+        return crm;
     }
 
-    public void setMatricula(int matricula) {
-        this.matricula = matricula;
+    public void setCrm(int crm) {
+        this.crm = crm;
     }
 
     public String getNome() {
@@ -51,20 +51,20 @@ public class Aluno {
         this.dataNascimento = dataNascimento;
     }
 
-    public String getNomeMae() {
-        return nomeMae;
+    public String getSobrenome() {
+        return sobrenome;
     }
 
-    public void setNomeMae(String nomeMae) {
-        this.nomeMae = nomeMae;
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
     }
 
-    public String getNomePai() {
-        return nomePai;
+    public String getEspecializacao() {
+        return especializacao;
     }
 
-    public void setNomePai(String nomePai) {
-        this.nomePai = nomePai;
+    public void setEspecializacao(String especializacao) {
+        this.especializacao = especializacao;
     }
 
     public String getCpf() {
@@ -83,12 +83,12 @@ public class Aluno {
         this.rg = rg;
     }
 
-    public String getEscolaAnterior() {
-        return escolaAnterior;
+    public String getLocalDeTrabalho() {
+        return localDeTrabalho;
     }
 
-    public void setEscolaAnterior(String escolaAnterior) {
-        this.escolaAnterior = escolaAnterior;
+    public void setLocalDeTrabalho(String localDeTrabalho) {
+        this.localDeTrabalho = localDeTrabalho;
     }
 
     public String getEnderecoLogradouro() {
